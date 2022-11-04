@@ -1,0 +1,46 @@
+:root {
+    --dark-green: #003000;
+    --light-green: #008d00;
+    --light: #d8d8d8;
+    --dark: #383838;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+.jumbotron {
+    background-color: var(--dark-green);
+    color: var(--light);
+}
+
+.jumbotron button {
+    background-color: var(--light);
+    color: var(--dark-green);
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.dark {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.light {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+#questions {
+    height: 400px;
+}
+
+#timer {
+    font-size: 40px;
+}
+
+#score {
+    font-size: 40px;
+}
