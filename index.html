@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header class="jumbotron jumbotron-fluid d-flex align-items-center justify-content-center">
+        <h1 class="text-center mr-3">Let's take a quiz!</h1>
+    </header>
+    <main>
+        <div id="questions" class="container-fluid d-flex flex-column align-items-center text-center dark">
+            <div id="question-card" class="card light d-block w-100 h-75">
+                <div class="container">
+                    <div class="row">
+                        <p id="timer" class="col ml-6 text-left"></p>
+                        <p id="score" class="col ml-6 text-right"></p>
+                    </div>
+                </div>
+                <h2 class="card-title">Web Dev Quiz!</h2>
+                <p class="card-text">
+                    Answer some questions about web development. See if you can get a high score!<br>
+                    Correct answers will add time, but incorrect answers will subtract time!
+                </p>
+                <button type="button" class="btn btn-success w-auto" id="start-button">Start</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
