@@ -6,7 +6,7 @@ Do you want to test your web development knowledge? You can take this quiz
 and see just how much you've learned! compare your high scores to see how
 you're doing.
 
-![Webpage snippet]()
+![Webpage snippet](./assets/quiz-challenge.png)
 
 ## Installation
 
