@@ -8,7 +8,7 @@ let score = document.querySelector('#score');
 let viewHS = document.querySelector('#high-scores');
 let highScores = [];
 let answers = [];
-let secondsLeft = 20;
+let secondsLeft = 30;
 let totalScore = 0;
 let timerInterval;
 const questions = [
@@ -108,7 +108,6 @@ function wrongAnswer() {
 function correctAnswer() {
     totalScore++;
     score.textContent = 'Score: ' + totalScore;
-    secondsLeft = secondsLeft + 1;
     cardText.textContent = 'Correct!'
     for ( let i = 0; i < 4; i++) {
         card.removeChild(answers[i])
