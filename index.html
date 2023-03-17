@@ -12,12 +12,15 @@
         <h1 class="text-center mr-3">Let's take a quiz!</h1>
     </header>
     <main>
-        <div id="questions" class="container-fluid d-flex flex-column align-items-center text-center dark">
-            <div id="question-card" class="card light d-block w-100 h-75">
-                <div class="container">
-                    <div class="row">
-                        <p id="timer" class="col ml-6 text-left"></p>
-                        <p id="score" class="col ml-6 text-right"></p>
+        <div id="questions" class="container-fluid d-flex flex-column text-center dark">
+            <div id="question-card" class="card row light d-block h-75">
+                <div class="container d-flex flex-row">
+                    <div class="col">
+                        <button type="button" class ="btn btn-link" id="high-scores">View High Scores</button>
+                    </div>
+                    <div class="col">
+                            <p id="timer" class="text-right"></p>
+                            <p id="score" class="text-right"></p>
                     </div>
                 </div>
                 <h2 class="card-title">Web Dev Quiz!</h2>
